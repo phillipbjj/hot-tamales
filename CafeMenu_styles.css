@@ -1,3 +1,24 @@
+body{
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg)
+}
+
 h1, p, h2{
     text-align: center;
+}
+.flavor{
+    text-align: left;
+    width: 49%;
+}
+.price{
+    text-align: right;
+    width: 49%;
+}
+.item p {
+    display: inline-block;
+}
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;  /* Center aligns the pgae */
+    margin-right: auto;
 }
